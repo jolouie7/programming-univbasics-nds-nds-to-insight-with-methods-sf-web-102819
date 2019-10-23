@@ -17,6 +17,7 @@ def directors_totals(nds)
   #   "Martin Scorsese"=>636812242,
   #   "Francis Ford Coppola"=>509719258
   # }
+  result
   i = 0 
   while i < nds.length do 
     result[nds[i][:name]] = gross_for_director(nds)
